@@ -5,7 +5,8 @@ import time
 count = 0
 maxcount = 3
 
-#while loop that is called up to maxcount and opens a web browser every 2 hours.
+#while loop that is called up to maxcount and opens a web browser
+#every 2 hours.
 while count < maxcount:
     time.sleep(7200)
     webbrowser.open("http://www.youtube.com/watch?v=dQw4w9WgXcQ")
