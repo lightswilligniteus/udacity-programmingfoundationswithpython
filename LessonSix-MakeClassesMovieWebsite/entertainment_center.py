@@ -13,3 +13,10 @@ avatar = media.Movie("Avatar",
                     "https://www.youtube.com/watch?v=6ziBFh3V1aM")
 
 print(avatar.storyline)
+
+pokemon = media.Movie("Pokemon: The First Movie",
+                    "A story about pocket monsters",
+                    "https://upload.wikimedia.org/wikipedia/en/thumb/c/c9/Pokemon-mewtwo-strikes-back.jpg/220px-Pokemon-mewtwo-strikes-back.jpg",
+                    "https://www.youtube.com/watch?v=ZybYS201lUw")
+
+pokemon.show_trailer()
