@@ -26,5 +26,3 @@ pokemon = media.Movie("Pokemon: The First Movie",
 
 #print(media.Movie.VALID_RATINGS)
 print(media.Movie.__doc__)
-print(media.Movie.__name__)
-print(media.Movie.__module__)
